@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(92, 176, 255);
+    padding-left: 100px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 99, 99);
+    font-size: 30px;
+}
+
+body{
+    background-image: url("/Senac-Python-2024/Front-End/Aula 3/img/planetas/universo.png");
+    background-position: center;
+    margin: 100px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(175, 246, 255)
+}
+
+#senac{
+    text-align: center;
+}
+
+#terra{
+    width: 300px;
+    height: auto;
+}
+
+#marte{
+    width: 300px;
+    height: auto;
+}
+#saturno{
+    width: 300px;
+    height: auto;
+}
+
+#venus{
+    width: 300px;
+    height: auto;
+}
