@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Botão</title>
+</head>
+<body>
+    <button onclick="exibirPopup()">Clique aqui</button>
+    <button onclick="exibirMensagem()">Clique aqui</button>
+    <p id="mensagem"></p>
+    <p id="mensagem2"></p>
+
+    <script>
+        function exibirMensagem() {
+            document.getElementById("mensagem").textContent = "Olá! Você clicou no botão.";
+            document.getElementById("mensagem2").textContent = "Você clicou no mesmo botão que o que desacandeou a mensagem acima";
+        }
+    </script>
+    
+</body>
+</html>
