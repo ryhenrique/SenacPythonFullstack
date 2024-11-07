@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <h1>Minha Página</h1>
+    <script>
+        nome=prompt("Qual é o seu nome?");
+        document.write("<h3>"+nome+", seja bem-vindo a minha página</h3>");
+        senha=prompt("Qual a sua senha?");
+        if(senha == "senha"){
+            alert("Senha ruim")
+        }
+        else{
+            alert("Senha gravada com sucesso")
+        }
+    </script>
+
+    <!--Tipos de alertas-->
+    <div class="alert alert-primary" role="alert">
+        Você esqueceu a sua senha <a href="#" class="alert-link">Clique aqui para redifinir</a></div>
+    <div class="alert alert-warning" role="alert">
+        Senha com caracteres invalidos</div>
+    <div class="alert alert-success" role="alert">
+        Você redifiniu sua senha com sucesso</div>
+
+    <!--Imagem Fluida com Responsividade-->
+    <img class="img-fluid" src="img/githubavatar.png">
+    <img src="img/githubavatar.png">
+
+    <!--Bordas-->
+    <img class="img-fluid rounded" src="img/github.png">
+    <img class="img-fluid rounded-circle" src="img/github.png">
+    <img class="img-fluid rounded-pill" src="img/github.png">
+    <img class="img-fluid rounded-top" src="img/github.png">
+    <img class="img-fluid rounded-5" src="img/github.png">
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            // let n = "Jose"
+            // window.alert("Senha incorreta, acesso negado"); // Criando uma mensagem em um pop-up
+            // alert("Senha incorreta, acesso negado"); // Criando uma mensagem pop-up
+            // nome=prompt("Qual o seu nome?"); // Carregando uma variável
+            // prompt(nome); // Imprimindo uma variável abrindo uma caixa de inserção
+            // alert("Olá "+ nome); // Imprimindo um texto e uma variável
+            // alert(n); // Imprimindo uma variável que foi pré-carregada
+        </script>
+
+    </footer>
+</body>
+</html>
