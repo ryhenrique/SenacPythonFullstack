@@ -1,0 +1,33 @@
+/* Define o estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo clara */
+  }
+  
+  /* Caixa do formulário */
+  form {
+    max-width: 500px;
+    margin: 0 auto; /* Centraliza o formulário */
+  }
+  
+  /* Botões */
+  button, a.btn {
+    margin-right: 10px; /* Espaço entre os botões */
+  }
+  
+  /* Inputs */
+  input.form-control {
+    border-radius: 8px; /* Borda arredondada */
+    border: 1px solid #ced4da; /* Cor da borda */
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    text-align: center;
+    color: #495057;
+  }
+  
+  /* Sombra no formulário */
+  form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
